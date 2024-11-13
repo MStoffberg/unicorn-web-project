@@ -15,6 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <repository>
+    <id>unicorns-unicorn-packages</id>
+    <name>unicorns-unicorn-packages</name>
+    <url>https://unicorns-490004639972.d.codeartifact.eu-west-1.amazonaws.com/maven/unicorn-packages/</url>
+  </repository>
+</distributionManagement>
   <build>
     <finalName>unicorn-web-project</finalName>
   </build>
